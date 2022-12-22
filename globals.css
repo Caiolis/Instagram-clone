@@ -5,6 +5,9 @@
     font-family: Roboto, 'sans-serif';
     transition: all ease-in-out 0.3s;
 }
+body {
+    background-color: #FAFAFA;
+}
 
 header {
     display: flex;
@@ -15,9 +18,14 @@ header {
     height: 54px;
     border: 1px solid #DBDBDB;
     padding: 20px 0px;
+    background-color: #FFF;
 }
 
 ion-icon {
     font-size: 20px;
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
