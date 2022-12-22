@@ -293,6 +293,11 @@
     cursor: pointer;
 }
 
+.mobile-wrapper,
+.mobile-bar {
+    display: none;
+}
+
 @media screen and (max-width: 935px) {
     .right-content {
         display: none;
@@ -302,5 +307,37 @@
     }
     header {
         padding: 20px 15px !important;
+    }
+}
+
+@media screen and (max-width: 614px) {
+    .stories-bar {
+        background-color: transparent;
+        border: none;
+        margin: 60px 0px 5px 0px;
+        padding: 23px 10px;
+    }
+    .icon-stories {
+        display: none;
+    }
+    header .wrapper {
+        display: none;
+    }
+    .mobile-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+        width: 100%;
+    }
+    .mobile-bar {
+        background-color: #FFF;
+        z-index: 999;
+        position: fixed;
+        bottom: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 17px 19px;
+        width: 100%;
     }
 }
