@@ -19,6 +19,8 @@ header {
     border: 1px solid #DBDBDB;
     padding: 20px 0px;
     background-color: #FFF;
+    position: fixed;
+    z-index: 9999999;
 }
 
 ion-icon {
